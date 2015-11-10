@@ -1,0 +1,16 @@
+The C++ version of distributed particle SLAM is still under construction.
+
+The original code and source: https:// users.cs.duke.edu/~parr/dpslam
+
+This project goal is to try to code the C language version into C++ object design version. The current work only includes low level local distributed particle SLAM. The next step is to develop hierarchical distributed particle SLAM. And possibly the future work will include event-driven design or multi-threaded design.
+
+How to compile and run the program:
+
+It is suitable for most linux or unix systems as long as the platform supports C++11.
+
+# make
+# ./slamTest
+
+All the parameters, datasets and data structures are used in the original source: https://users.cs.duke.edu/~parr/dpslam
+
+
